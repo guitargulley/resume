@@ -1,15 +1,22 @@
+
 body{
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;  
     font-family: Arial, Helvetica, sans-serif; 
+    z-index:1;
    }
+
+   /*
+   ====================================================
+   MENU BAR
+   ====================================================
+   */
 header{
-    background-color:rgba(30, 87, 18, 0.8);
+    background-color:rgba(82, 52, 52, 0.8);
     width:cover;
     height:80px;
-    margin-top:80px;
     padding:0;
     display: flex;
     align-items:center;
@@ -23,12 +30,106 @@ h1{
     text-align:center;
     float:left;
     }
+#menu{
+    float:right;
+    text-align:center;
+    margin-left: 70px;
+    
+    
+}
+#menu a{
+    text-decoration:none;
+    color:#3A3535;
+}    
 .home{
     display:inline-block;
-    margin:0;
-    padding:10px;
-    font-size:200%;
-    display:none;
-    
+    margin:10px;
+    padding:5px;
+    font-size:150%;
+    border:ridge 5px;
+    border-radius:10px;
+    text-decoration:none;
+    background-color:rgba(212, 203, 203, 0.45);
+    font-weight:bold;
+   
+}
 
+.about{
+    display:inline-block;
+    margin:10px;
+    padding:5px;
+    font-size:150%;
+    border:ridge 5px;
+    border-radius:10px;
+    text-decoration:none;
+    background-color:rgba(212, 203, 203, 0.45);
+    font-weight:bold;
+}
+.resume{
+    display:inline-block;
+    margin:10px;
+    padding:5px;
+    font-size:150%;
+    border:ridge 5px;
+    border-radius:10px;
+    text-decoration:none;
+    background-color:rgba(212, 203, 203, 0.45);
+    font-weight:bold;
+}
+.projects{
+    display:inline-block;
+    margin:10px;
+    padding:5px;
+    font-size:150%;
+    border:ridge 5px;
+    border-radius:10px;
+    text-decoration:none;
+    background-color:rgba(212, 203, 203, 0.45);
+    font-weight:bold;
+}
+
+
+
+/*
+==================================================
+HOME PAGE CONTENT
+==================================================
+*/
+.intro-site-container{
+    margin:0 auto;
+    max-width: 900px;
+    display: flex;
+}
+.intro-site{
+   
+    padding: 20px;
+    flex:1;
+}
+.photo-quote{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+.pro-picture{
+    flex:1;
+}
+#profile{
+    width: 400px;
+    height:auto;  
+    border-style:ridge;
+    border-width:20px;
+    border-radius: 50%;
+    border-color:rgba(73, 43, 43, 0.65);
+}
+.quote{
+    background-color:rgba(212, 203, 203, 0.45);
+    flex:1;
+    font-size:20px;
+}
+#author{
+    Font-size:26px;
+    font-weight:bold;
+}
+.main-footer{
+    background-color:rgba(73, 43, 43, .65);
 }
