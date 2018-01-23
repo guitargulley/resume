@@ -29,5 +29,14 @@
     border-bottom: 2px solid black;
 }
 .objective-content{
+    padding-top:20px;
+}
+.volunteer-heading{
+    border-bottom: 2px solid black;
+}
+.volunteer-content{
+    padding-top:20px;
+}
+.objective-content{
     padding-left: 40px;
 }
